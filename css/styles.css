@@ -1,0 +1,7 @@
+.site-nav .link {
+    color:black;
+}
+.site-nav .link:hover,
+.site-nav .link.current{
+    color: #2196F;
+}
