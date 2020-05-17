@@ -1,22 +1,40 @@
 :root{
     --primery-text-color: black;
     --title-text-color: black;
-    --accent-color: black
+    --title-background-color:  #ffffff;
+    --accent-color: blue;
 }
 body {
-    background-color: #ffffff;
-    color: #000;
+    background-color:var(--title-background-color);
+    color: var(--title-text-color);
 }
+.button {
+background-color: var(--accent-color);
+color: var(--title-background-color);
+}
+
 .logo .style {
-    color:blue;
+    color: var(--title-text-color);
 }
 ul {
     list-style: none;
 }
 .site-nav .link {
-    color:black;
+ color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: blue
+    color: var(--accent-color);
 }
+.site-nav .link.current {
+color: var(--accent-color);
+}
+.list-button {
+    background-color: var(--title-background-color);
+    color: var(--title-text-color); 
+}
+/* .list-button .button:hover,
+.list-button .button:focus {
+    color: var(--accent-color);
+} */
+
