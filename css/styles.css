@@ -1,7 +1,22 @@
+:root{
+    --primery-text-color: black;
+    --title-text-color: black;
+    --accent-color: black
+}
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+.logo .style {
+    color:blue;
+}
+ul {
+    list-style: none;
+}
 .site-nav .link {
     color:black;
 }
 .site-nav .link:hover,
-.site-nav .link.current{
-    color: #2196F;
+.site-nav .link:focus {
+    color: blue
 }
